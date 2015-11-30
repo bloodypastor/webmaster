@@ -1,0 +1,261 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border: red 3px solid;
+}
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid;
+}
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+.header_topline {
+	background-color: #43484C;
+	padding: 15px 0;
+	color: #fff;
+}
+
+.header_topline a {
+	color: #fff;
+}
+
+.top_links {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.top_links a {
+	text-decoration: underline;
+}
+
+.top_links a:hover {
+	text-decoration: none;
+}
+
+.soc_buttons {
+	float: right;
+}
+
+.soc_buttons > a {
+	font-size: 26px;
+	margin-left: 8px;
+}
+
+.top_links {
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 10;
+}
+
+.auth_buttons {
+	font-size: 26px;
+	margin-left: 8px;
+}
+
+.auth_buttons, 
+.menu_button {
+	background-color: transparent;
+	border: medium none;
+	font-size: 26px;
+}
+
+.menu_button {
+	color: #fff;
+	padding: 9px 15px 0;
+}
+
+.logo {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-size: 42px;
+	text-align: center;
+}
+
+.top_header {
+	background-color: #4aaad2; 
+}
+
+.main_menu {
+	background-color: #3797bf;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.main_menu a {
+	color: #fff;
+	padding: 15px 10px;
+	display: inline-block;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.main_menu a:hover {
+	background-color: #2787af;
+}
+
+.main_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	text-transform: uppercase;
+	z-index: 12;
+}
+
+.top_contacts {
+	float: right;
+	font-size: 26px;
+	padding: 10px 15px;
+	background-color: #2787af;
+	line-height: 31px;
+}
+
+.main_menu ul li {
+	display: inline-block;
+}
+
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;	
+  font-family: 'Titillium Web', sans-serif;
+	font-family: "RobotoLight";
+}
+
+.slider_container img {
+	max-width: 100%;
+}
+
+.slider_container {
+	position: relative;
+}
+
+.next_button,
+.prev_button {
+	color: #fff;
+	font-size: 46px;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	top: 40%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10em;
+	padding: 0 25px;
+}
+
+.next_button {
+	right: 20px;
+}
+
+.prev_button {
+	left: 20px;
+}
+
+section.order {
+	background-color: #eee;
+	padding: 25px 0;
+
+}
+
+.sell {
+	font-size: 22px;
+	font-family: 'Dancing Script', cursive;
+	padding: 5px;
+}
+
+.button {
+	background-color: #2bc6a4;
+	border: medium none;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	padding: 10px 20px;
+	text-transform: uppercase;	
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #2BC678;
+}
+
+.button:active {
+	background-color: #2BC6CC;
+}
+
+.sell_right .button {
+	float: right;
+}
+
+.hidden {
+	display: none;			
+}
+/* Кнопка Замовити*/
+.pop_form input[type="text"] {
+	display: block;
+	line-height: 24px;
+	width: 90%;
+	margin: 0 auto 12px;
+	border: #999 3px solid;
+}
+
+.pop_form .button {
+	margin: 20px auto 0;
+}
+
+.pop_form h3 {
+	margin: 10px auto 15px;
+	text-align: center;
+	font-weight: normal;
+	font-family: "RobotoBold";
+	text-transform: uppercase;
+}
+
+.blog_item img {
+	min-width: 100%;
+}
+
+.blog_item h3 {
+	text-transform: uppercase;
+	font-family: "RobotoCondensedRegular";
+	margin-bottom: 10px;
+}
+
+.blog_item h3 a {
+	text-decoration: underline;
+}
+
+.blog_item p {
+	margin-top: 0;
+}
+
+.right_aside {
+	padding: 15px 20px;
+	border-radius: 5px;
+	background-color: #EEEEEE;
+	margin-top: 30px;
+}
